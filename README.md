@@ -15,7 +15,7 @@ Có 2 cách thiết kế cơ bản nhất là chia sẻ từ một database duy 
 - Phương pháp kết hợp: Trong phương pháp này, một số Tenant có database riêng trong khi các Tenant khác được nhóm lại trong một hoặc nhiều database.
 
 - Các thành phần chính của hạ tầng multi-tenancy của ABP:
-![ABP Multi-Tenancy Infrastructure](![image](https://github.com/longdmhe161226/Mutil-Tenancy/assets/100985816/31639c84-343f-4d83-a1eb-f1df72d49e90))
+![ABP Multi-Tenancy Infrastructure](https://github.com/longdmhe161226/Mutil-Tenancy/assets/100985816/31639c84-343f-4d83-a1eb-f1df72d49e90)
 
 - Mục tiêu của ABP
 Mục tiêu của ABP là tự động hóa logic liên quan đến multi-tenancy càng nhiều càng tốt, làm cho ứng dụng không phụ thuộc vào multi-tenancy. ABP xác định Tenant từ domain/subdomain, cookie, HTTP header,... Sau đó tự động chọn connection nếu Tenant đấy có connection riêng. Nếu Tenant sử dụng database chia sẻ, nó sẽ tự động lọc dữ liệu để khách hàng không vô tình truy cập vào dữ liệu của Tenant khác.
