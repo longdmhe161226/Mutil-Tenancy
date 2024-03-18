@@ -15,6 +15,7 @@ Có 2 cách thiết kế cơ bản nhất là chia sẻ từ một database duy 
 - Phương pháp kết hợp: Trong phương pháp này, một số Tenant có database riêng trong khi các Tenant khác được nhóm lại trong một hoặc nhiều database.
 
 - Các thành phần chính của hạ tầng multi-tenancy của ABP:
+  
 ![ABP Multi-Tenancy Infrastructure](https://github.com/longdmhe161226/Mutil-Tenancy/assets/100985816/31639c84-343f-4d83-a1eb-f1df72d49e90)
 
 - Mục tiêu của ABP
